@@ -28,10 +28,13 @@ li {
 .flex {
     display: flex;
 }
-flex-1 {
+.flex-1 {
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
 .row {
     width: 100%;
     max-width: 800px;
@@ -40,6 +43,14 @@ flex-1 {
 
 .text--purple {
     color: #3b522f;
+}
+
+section:nth-child(even) {
+background-color: #ced8c7;
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 /*NAVIGATION BAR */
 nav {
@@ -152,5 +163,25 @@ padding-top: 8px;
     width: 100%;
 }
 
+/* TECH STACK */
+
+.language__img {
+    width : 100%;
+    max-width: 100px;
+}
+
+.language {
+    width: 25%;
+}
 
 
+.language__img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language__list {
+    display: flex;
+    width: 100%;
+}
